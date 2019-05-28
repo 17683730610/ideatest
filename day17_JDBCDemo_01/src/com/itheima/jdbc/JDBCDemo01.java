@@ -31,7 +31,7 @@ public class JDBCDemo01 {
         String url = "jdbc:mysql:///day17";
 
         String user = "root";
-        String password = "123";
+        String password = "root";
         //获取到了一个连接对象，也就是与mysql服务器建立起的连接
         //"="左边相当于是对象的引用，"="右边相当于对象本身。
         //多态:父类的引用指向子类的对象。为了低耦合，咱们要使用多态
